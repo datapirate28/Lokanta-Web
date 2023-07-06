@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="icon" href="Assest/log main.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1 id="top"> Contact Us</h1>
+
+      <nav>
+        <ul>
+          <li><a href="home1.html"> Home </a></li>
+          <li><a href="home1.html#about"> About Istan Burger </a></li>
+          <li><a href="home1.html#menu"> Our Menu </a></li>
+          <li><a href="hours1.html"> Store Hours </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <figure>
+          <img src="Assest/pic3.jpg" alt="Chicken Doner" width="60%" />
+          <figcaption>
+            <p>Turkish Doner</p>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Our Contact Form</h2>
+
+        <form action="#">
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+              <label for="username">Name:</label>
+              <input
+                type="text"
+                id="username"
+                name="userName"
+                required
+                placeholder="Your name"
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder=" Your email"
+              />
+            </p>
+
+            <style>
+              .textarea-label {
+                display: block;
+                margin-bottom: 5px;
+              }
+            </style>
+
+            <label for="myTextarea" class="textarea-label">Your Message:</label>
+            <textarea id="myTextarea" rows="10" cols="30" placeholder=" Type your message"></textarea>
+          </fieldset>
+
+          <button type="submit"> Send </button>
+          <button type="reset"> Reset </button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Our Location</h2>
+        <address> 555 Taco Temptation Lane, Suite T Kansas City, MO 5555555-5555</address>
+        <p>
+            Phone: <a href="tel:555-555-5555">555-555-5555</a>
+        </p>
+      </section>
+
+      <a href="#top"> Back to top</a>
+
+      <hr>
+      <span> Copyright &#169; The Istan Burger</span>
+    </main>
+  </body>
+</html>
